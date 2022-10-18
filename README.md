@@ -1,4 +1,4 @@
-# SchoolManagments_System
+# SchoolManagements_System
 
 # Maze Solver
 Worked on making a maze solver GUI where the user can input a maze and specify the target point the user
