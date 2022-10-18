@@ -1,17 +1,32 @@
 # SchoolManagements_System
-
-# Maze Solver
-Worked on making a maze solver GUI where the user can input a maze and specify the target point the user
-wants to find by a single mouse click. Implemented DFS Algorithm to find the path from starting to ending
-point in a maze.
+- Built a Student Result management system GUI application to help the admin store various data such as
+course result declaration , student details and to help student’s check their own result.
+-Added functionaly for admin to add/list student detail , add/list/update student result and for student to
+search for their result.
+-Used mysql database to store/fetch data entered into the GUI.
 
 # demo Video :- 
 https://user-images.githubusercontent.com/74968170/196412431-26733d97-5a90-449f-8e1e-2f069eab5fce.mp4
 
 # About the project 
 
-# Depth-First Search
-In order to figure out how to traverse a maze through code, we first need to understand what depth-first search is. Depth-first search (sometimes referred to in this article as DFS) is a graph/tree traversal algorithm that follows a path as far as it can until it either, reaches the goal or has nowhere else to go. It’s almost like running as far as you can in one direction until you hit a wall. Hopefully that analogy helps clear up any lingering confusion. You might even be starting to see how we can use Depth-First Search to solve a maze!
+# MySql 
+MySQL is a database management system that is used to maintain relational databases. It is an open-source software backed by Oracle Corporation. This was originally founded by a Swedish company called MYSQL AB which was later acquired by sun microsystems and finally is with Oracle Corporation. As it is an open-source database system, the source code can be modified according to our needs. It also offers premium services if a commercial license is purchased from Oracle Corporation. MySQL is a scalable, fast, and reliable database management system which can run on any platform like Windows, Unix, Linux, etc., and can be installed on the desktop or any server machine.
+
+# Used sql 
+The format for this file is -> Command Description : SQL command\
+
+- Create Database : CREATE DATABASE StudentResultSystem;
+- Use Database : USE StudentResultSystem;
+- Create student table : CREATE TABLE student(name VARCHAR(100), rollNo VARCHAR(10) PRIMARY KEY, gender VARCHAR(6), fathername VARCHAR(40), courseName VARCHAR(10), branchName VARCHAR(20));
+- Look at the description of student table : DESC student;
+- Insert a row in student table : INSERT INTO student VALUES('Sam', '1', 'Male', 'fdfs', 'BTech', 'Civil'); 
+- List the student table : SELECT * FROM student;
+- Create result table : CREATE TABLE result(rollNo VARCHAR(10) PRIMARY KEY, physics INT, maths INT, chem INT, electrical INT, bio INT, result INT);
+- Look at the description of result table : DESC result;
+- Update a row in result table : UPDATE result SET physics = 10, maths = 20, chem = 30, electrical = 40, bio=50, result = 150 WHERE rollNo='1';
+- List the result table : SELECT * FROM result;
+- Inner Join student and result table based on roll No. Column : SELECT * FROM student INNER JOIN result WHERE student.rollNo=result.rollNo;
 
 # Java Swing and awt
 AWT and Swing are used to develop window-based applications in Java. Awt is an abstract window toolkit that provides various component classes like Label, Button, TextField, etc., to show window components on the screen. All these classes are part of the Java.awt package.
@@ -23,7 +38,7 @@ The components of Swing are platform-independent, i.e., swing doesn't depend on 
 
 
 # Conclusion
-By now I’m sure you understand exactly how our traversal algorithm could generate the path shown in above video. Which is just one of a couple of available paths. We learned about some graph theory, depth-first search, the call stack and how all of it applies to finding a path through a maze. I hope y’all enjoyed reading this article as much as I enjoyed writing it!
+By now I’m sure you understand exactly how to Make a connection with database and how we can store and update the Information and also learned java swing and awt and help of that how can we make a beautiful GUL,I hope y’all enjoyed reading this article as much as I enjoyed writing it!
 
 ## Authors
 
