@@ -5,7 +5,7 @@ course result declaration , student details and to help student’s check their 
 search for their result.
 -Used mysql database to store/fetch data entered into the GUI.
 
-# demo Video :- 
+# Demo Video :- 
 
 https://user-images.githubusercontent.com/74968170/196425819-b77812c4-48ec-4584-a496-fc51bd161867.mp4
 
