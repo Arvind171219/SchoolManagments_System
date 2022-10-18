@@ -6,7 +6,10 @@ search for their result.
 -Used mysql database to store/fetch data entered into the GUI.
 
 # demo Video :- 
-https://user-images.githubusercontent.com/74968170/196412431-26733d97-5a90-449f-8e1e-2f069eab5fce.mp4
+
+https://user-images.githubusercontent.com/74968170/196425819-b77812c4-48ec-4584-a496-fc51bd161867.mp4
+
+
 
 # About the project 
 
