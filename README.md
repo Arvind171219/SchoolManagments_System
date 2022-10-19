@@ -5,9 +5,10 @@ course result declaration , student details and to help student’s check their 
 search for their result.
 -Used mysql database to store/fetch data entered into the GUI.
 
- Used mysql JDBC driver library to connect the library :
-  
- rs2xml.jar library to fetch the data from database
+   Used mysql JDBC driver library to connect the library : JDBC drivers are Java library files with the extension .jar used by all Java applications to connect to the database. Usually, they are provided by the same company which implemented the MySql software. DbSchema Tool already includes an MySql driver, which is automatically downloaded when you connect to MySql.
+
+   rs2xml.jar library to fetch the data from database
+ 
 # Demo Video :- 
 
 https://user-images.githubusercontent.com/74968170/196425819-b77812c4-48ec-4584-a496-fc51bd161867.mp4
@@ -15,6 +16,22 @@ https://user-images.githubusercontent.com/74968170/196425819-b77812c4-48ec-4584-
 
 
 # About the project 
+Student result management system project having two modules:
+1. Student module:
+In this module we have to enter roll number to see user or student result. When we enter wrong roll number it will show popup message incorrect roll number.When we enter correct roll number then it moves to next page where we can see results of different subject.
+
+2. Admin module:
+In this module we can add new student and add new result. If we want to add an existing roll number or student details then we get error message.we can also see student details and student result.
+# Software used:
+1. Netbeans downloading link:
+https://netbeans.org/downloads/8.2/rc/
+
+2. For this project use mysql version :5.5.45 
+Link to download mysql-5.5.45: https://drive.google.com/file/d/1nNmOcmICQ9k4z1hCob_h4Gs0ICKXPA2P/view?usp=sharing
+
+Jar file used:
+1. rs2xml
+Link: https://drive.google.com/file/d/1tbPV3TShgOABXlEhry-Km2h9pV7bIdR6/view?usp=sharing
 
 # MySql 
 MySQL is a database management system that is used to maintain relational databases. It is an open-source software backed by Oracle Corporation. This was originally founded by a Swedish company called MYSQL AB which was later acquired by sun microsystems and finally is with Oracle Corporation. As it is an open-source database system, the source code can be modified according to our needs. It also offers premium services if a commercial license is purchased from Oracle Corporation. MySQL is a scalable, fast, and reliable database management system which can run on any platform like Windows, Unix, Linux, etc., and can be installed on the desktop or any server machine.
